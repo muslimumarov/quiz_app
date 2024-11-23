@@ -19,11 +19,10 @@ function MainLinks() {
             return (
               <Link
                 to={`/quiz/${item.title}`}
-                
                 key={item.title}
                 className="menu-item header-logo"
               >
-                <figure style={{backgroundColor: item.color}}>
+                <figure style={{ backgroundColor: item.color }}>
                   <img src={item.icon} alt={item.title} />
                 </figure>
                 <span>{item.title}</span>
